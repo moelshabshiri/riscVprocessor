@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Nov 20 06:44:47 2019
+# Process ID: 12616
+# Current directory: C:/Users/pc/Desktop/submission/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18924 C:\Users\pc\Desktop\submission\project_1\project_1.xpr
+# Log file: C:/Users/pc/Desktop/submission/project_1/vivado.log
+# Journal file: C:/Users/pc/Desktop/submission/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pc/Desktop/submission/project_1/project_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/pc/Desktop/project_1' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/pc/Desktop/submission/MS4_MemWorkin/DataPath_behav.wcfg', nor could it be found using path 'C:/Users/pc/Desktop/MS4_MemWorkin/DataPath_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2017.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 20 06:45:10 2019...

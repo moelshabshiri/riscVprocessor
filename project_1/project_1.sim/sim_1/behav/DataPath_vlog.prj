@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/ALU_ctrlunit.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/COMPinstruction_mux.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/ForwardUnit.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/ImmGen.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/JALR_PC2mux.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/MUXflush.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/imports/new/Mul_unit.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/RD_mux.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/imports/new/RVC.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/alu.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/andgate.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/imports/Desktop/branch_mux.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/ctrlunit.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/dflipflop.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/fulladd.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/memory.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/mux.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/mux3to1.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/muxx.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/nbit.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/prv32_ALU.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/regs.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/shift.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/shifter.v"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/new/DataPath.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,104 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 99c0248d76d946eb8fe89f2723586d2e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot DataPath_behav xil_defaultlib.DataPath xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port loadline [C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/DataPath.v:99]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port loadline [C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/DataPath.v:113]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port loadline [C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/regs.v:7]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port loadline [C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/DataPath.v:125]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 33 for port num [C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/DataPath.v:155]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port loadline [C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/DataPath.v:158]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port loadline [C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/DataPath.v:167]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 33 for port num [C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/DataPath.v:173]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 33 for port num [C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/DataPath.v:174]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port A [C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/DataPath.v:176]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/imports/imports/new/RVC.v:96]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/imports/imports/new/RVC.v:100]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/pc/Desktop/project_1/project_1.srcs/sources_1/new/dflipflop.v" Line 23. Module dflipflop has a timescale but at least one module in design doesn't have timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4100' appears 50 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dflipflop
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.nbit_default
+Compiling module xil_defaultlib.compressed_ctrl
+Compiling module xil_defaultlib.CI_mux
+Compiling module xil_defaultlib.nbit(n=64)
+Compiling module xil_defaultlib.ctrlunit
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.regs_default
+Compiling module xil_defaultlib.MUXflush
+Compiling module xil_defaultlib.nbit(n=164)
+Compiling module xil_defaultlib.MUX(n=32)
+Compiling module xil_defaultlib.ALU_ctrlunit
+Compiling module xil_defaultlib.Mul_unit
+Compiling module xil_defaultlib.ForwardUnit
+Compiling module xil_defaultlib.mux3to1
+Compiling module xil_defaultlib.JALR_PC2mux
+Compiling module xil_defaultlib.RD_mux
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.shift(n=32)
+Compiling module xil_defaultlib.fulladd
+Compiling module xil_defaultlib.adder_default
+Compiling module xil_defaultlib.branch_mux
+Compiling module xil_defaultlib.nbit(n=181)
+Compiling module xil_defaultlib.andgate
+Compiling module xil_defaultlib.nbit(n=174)
+Compiling module xil_defaultlib.MUX(n=8)
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.DataPath
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot DataPath_behav

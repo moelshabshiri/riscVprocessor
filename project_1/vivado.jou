@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Nov 20 06:44:47 2019
+# Process ID: 12616
+# Current directory: C:/Users/pc/Desktop/submission/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18924 C:\Users\pc\Desktop\submission\project_1\project_1.xpr
+# Log file: C:/Users/pc/Desktop/submission/project_1/vivado.log
+# Journal file: C:/Users/pc/Desktop/submission/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pc/Desktop/submission/project_1/project_1.xpr
+update_compile_order -fileset sources_1
